@@ -189,7 +189,55 @@ def step_impl(context):
 
 
 # ----------------- todos.feature -----------------
-# ...
+
+@when(u'I do call for all todos')
+def step_impl(context):
+    pass
+
+@then(u'I get all todos list')
+def step_impl(context):
+    pass
+
+@when(u'I have entered todoId=25')
+def step_impl(context):
+    pass
+
+@then(u'I get that todo details')
+def step_impl(context):
+    pass
+
+@when(u'I have entered todoName=DiscoTestTodo')
+def step_impl(context):
+    pass
+
+@when(u'todoDesciption=DiscoTestTodoDescription')
+def step_impl(context):
+    pass
+
+@then(u'I am able to create appropriate new todo')
+def step_impl(context):
+    pass
+
+@when(u'I have entered todoName=NewDiscoTesttodo')
+def step_impl(context):
+    pass
+
+@when(u'todoDesciption=NewDiscoTesttodoDescription')
+def step_impl(context):
+    pass
+
+@then(u'I am able to update appropriate todo')
+def step_impl(context):
+    pass
+
+@when(u'I entered todoId=25')
+def step_impl(context):
+    pass
+
+@then(u'I am ableto delete that todo')
+def step_impl(context):
+    pass
+
 
 
 # ----------------- data_processing.feature -----------------
@@ -207,6 +255,4 @@ def step_impl(context, dataOut):
     context.dataOut = dataOut
     print('... Doing ' +str(context.action)+ ' on ' +str(context.dataIn))
     print('... Checking, if the result is '  +str(dataOut))
-
-
 
