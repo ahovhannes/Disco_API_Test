@@ -8,24 +8,30 @@ pip install behave
 
 ## Run place
 
-- ```sh Disco_API_Test/Source ```
+- ``` Disco_API_Test/Source ```
 
 ## Run User Microservice features
 
-- ```sh behave Features/DiscoTest/users.feature --no-capture ```
+- ``` behave Features/DiscoTest/users.feature --no-capture ```
+- ``` behave Features/DiscoTest/todos.feature --no-capture ```
+- ``` behave Features/DiscoTest/posts.feature --no-capture ```
+- ``` behave Features/DiscoTest/comments.feature --no-capture ```
 - or
-- ```sh behave Features/DiscoTest/users.feature ```
+- ``` behave Features/DiscoTest/users.feature ```
+- ``` behave Features/DiscoTest/todos.feature ```
+- ``` behave Features/DiscoTest/posts.feature ```
+- ``` behave Features/DiscoTest/comments.feature ```
 
 ## Run Data processing features
 
-- ```sh behave Features/DiscoTest/data_processing.feature --no-capture ```
+- ``` behave Features/DiscoTest/data_processing.feature --no-capture ```
 - or
-- ```sh behave Features/DiscoTest/data_processing.feature ```
+- ``` behave Features/DiscoTest/data_processing.feature ```
 
 ## Run All features
 
-- ```sh behave Features/DiscoTest/ --no-capture ```
+- ``` behave Features/DiscoTest/ --no-capture ```
 - or
-- ```sh behave Features/DiscoTest/ ```
+- ``` behave Features/DiscoTest/ ```
 
 
