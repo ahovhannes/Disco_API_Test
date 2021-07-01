@@ -135,8 +135,57 @@ def step_impl(context):
     pass
 
 
+
 # ----------------- comments.feature -----------------
-# ...
+
+@when(u'I do call for all comments')
+def step_impl(context):
+    pass
+
+@then(u'I get all comments list')
+def step_impl(context):
+    pass
+
+@when(u'I have entered commentId=25')
+def step_impl(context):
+    pass
+
+@then(u'I get that comment details')
+def step_impl(context):
+    pass
+
+@when(u'I have entered commentName=DiscoTestComment')
+def step_impl(context):
+   pass
+
+@when(u'commentDesciption=DiscoTestCommentDescription')
+def step_impl(context):
+    pass
+
+@then(u'I am able to create appropriate new comment')
+def step_impl(context):
+    pass
+
+@when(u'I have entered commentName=NewDiscoTestcomment')
+def step_impl(context):
+    pass
+
+@when(u'commentDesciption=NewDiscoTestcommentDescription')
+def step_impl(context):
+    pass
+
+@then(u'I am able to update appropriate comment')
+def step_impl(context):
+    pass
+
+@when(u'I entered commentId=25')
+def step_impl(context):
+    pass
+
+@then(u'I am ableto delete that comment')
+def step_impl(context):
+    pass
+
 
 
 # ----------------- todos.feature -----------------
@@ -158,4 +207,6 @@ def step_impl(context, dataOut):
     context.dataOut = dataOut
     print('... Doing ' +str(context.action)+ ' on ' +str(context.dataIn))
     print('... Checking, if the result is '  +str(dataOut))
+
+
 
