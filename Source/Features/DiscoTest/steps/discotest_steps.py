@@ -83,8 +83,56 @@ def users_then_delete_user(context):
     print('... Checking if user were deleted from DB')
 
 
+
 # ----------------- posts.feature -----------------
-# ...
+
+@when(u'I do call for all posts')
+def step_impl(context):
+    pass
+
+@then(u'I get all posts list')
+def step_impl(context):
+    pass
+
+@when(u'I have entered postId=25')
+def step_impl(context):
+    pass
+
+@then(u'I get that posts details')
+def step_impl(context):
+    pass
+
+@when(u'I have entered postName=DiscoTestPost')
+def step_impl(context):
+    pass
+
+@when(u'postDesciption=DiscoTestPostDescription')
+def step_impl(context):
+    pass
+
+@then(u'I am able to create appropriate new post')
+def step_impl(context):
+    pass
+
+@when(u'I have entered postName=NewDiscoTestPost')
+def step_impl(context):
+    pass
+
+@when(u'postDesciption=NewDiscoTestPostDescription')
+def step_impl(context):
+    pass
+
+@then(u'I am able to update appropriate post')
+def step_impl(context):
+    pass
+
+@when(u'I entered postId=25')
+def step_impl(context):
+    pass
+
+@then(u'I am ableto delete that post')
+def step_impl(context):
+    pass
 
 
 # ----------------- comments.feature -----------------

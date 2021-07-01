@@ -8,7 +8,7 @@ pip install behave
 
 ## Run place
 
-- ``` Disco_API_Test/Source ```
+- ``` cd Disco_API_Test/Source ```
 
 ## Run User Microservice features
 
